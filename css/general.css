@@ -19,7 +19,7 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
-    font-family: Impact, sans-serif
+    font-family: Futura, sans-serif
         
 }
 
@@ -61,9 +61,9 @@ p {
 h2 {
     font-size: 1.25rem;
     margin: 0 0 -0.4rem;
-    line-height: 1.75rem;
+    line-height: 1.75 rem;
     border-top: solid 0.4rem; 
-    color: rgb(224,0,0);
+    color: black;
     padding: 0rem 0 0;
         
 }
@@ -73,7 +73,50 @@ figcaption {
     font-size: .75rem;
     padding: .25rem 5% 0;
     text-align: center;
-    color: red;
+    color: rgb(224,0,0);
+}
+
+.dropcap:first-letter {
+    font-family: Helvetica; 
+    font-size:4.8rem;
+    font-weight: bold;
+    float: left;
+    margin: 1.7rem .5rem 1rem 0;
+    color: rgb(224,0,0);
+    
+}
+
+blockquote {
+    margin: 0;
+    padding: 0 0 0 15%;
+    overflow: hidden;
+    
+}
+
+blockquote p {
+    font-size: .875rem;
+}
+
+blockquote span {
+    font-weight: bold;
+    float: right;
+    margin; 1.5rem 0;
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 4rem;
+    color: rgb(224,0,0);
+    float: left;
+    margin: 1rem 0 0 -2rem;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 4rem;
+    position: absolute;
+    color: rgb(224,0,0);
+    margin: .2rem 0 0;
 }
 
 
