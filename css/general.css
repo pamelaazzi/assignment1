@@ -24,7 +24,7 @@ html {
 
 img {
 	width: 100%;
-    display: block;
+    display: n;
 }
 
 body {
@@ -118,8 +118,24 @@ blockquote p {
     font-size: .875rem;
 }
 
-footer {}
+footer {
+    font-family: Georgia;
+    line-height: 1.5rem;
+    color: black;
+}    
 
-footer p {}
+footer p {
+    font-family: Georgia;
+    float: none;
+    line-height: 1.5rem;
+    margin: 0 0 1.5rem;
+    color: red;
+}
 
-footer a {}
+footer a {
+    font-family: Georgia;
+    line-height: 1.5rem;
+    margin: 0 0 1.5rem;
+    color: blue;
+
+}
